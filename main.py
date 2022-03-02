@@ -264,11 +264,6 @@ def generate_layout():
 
 app.layout = generate_layout()
 
-import webbrowser
-url = "http://192.168.184.57:8050/"
-webbrowser.open(url, new=0, autoraise=True)
-
-
 # Assign DASH Callbacks
 
 @app.callback(
